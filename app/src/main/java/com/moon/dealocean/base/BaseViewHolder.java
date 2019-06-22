@@ -1,6 +1,6 @@
 package com.moon.dealocean.base;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 
 import com.moon.dealocean.ui.board.DealBadaBoardRecyclerAdapter;

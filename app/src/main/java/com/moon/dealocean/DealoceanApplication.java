@@ -1,7 +1,7 @@
 package com.moon.dealocean;
 
 import android.app.Application;
-import android.support.v7.preference.PreferenceManager;
+import androidx.preference.PreferenceManager;
 
 /**
  * Created by zambo on 2016-12-27.

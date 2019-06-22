@@ -1,16 +1,15 @@
 apply plugin: 'com.android.application'
 project.ext {
-    androidSupportLibraryVersion = '27.+'
 }
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion '27.0.3'
+    compileSdkVersion 29
+    buildToolsVersion '29.0.0'
 
     defaultConfig {
         applicationId "com.moon.dealocean"
-        minSdkVersion 23
-        targetSdkVersion 27
+        minSdkVersion 24
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
     }
@@ -35,51 +34,51 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     // Google Support Lib
-    compile "com.android.support:support-v13:$androidSupportLibraryVersion"
-    compile "com.android.support:design:$androidSupportLibraryVersion"
-    compile "com.android.support:appcompat-v7:$androidSupportLibraryVersion"
-    compile "com.android.support:recyclerview-v7:$androidSupportLibraryVersion"
-    compile "com.android.support:cardview-v7:$androidSupportLibraryVersion"
-    compile "com.android.support:preference-v14:$androidSupportLibraryVersion"
+    implementation "androidx.legacy:legacy-support-v13:1.0.0"
+    implementation "com.google.android.material:material:1.0.0"
+    implementation "androidx.appcompat:appcompat:1.0.0"
+    implementation "androidx.recyclerview:recyclerview:1.0.0"
+    implementation "androidx.cardview:cardview:1.0.0"
+    implementation "androidx.legacy:legacy-preference-v14:1.0.0"
 
     // Google Data Binding Lib
 
     // Retrofit
-    compile "com.squareup.retrofit2:retrofit:2.3.0"
-    compile "com.squareup.retrofit2:converter-gson:2.1.0"
-    compile "com.squareup.okhttp3:okhttp-urlconnection:3.6.0"
-    compile "com.squareup.okhttp3:logging-interceptor:3.6.0"
+    implementation "com.squareup.retrofit2:retrofit:2.6.0"
+    implementation "com.squareup.retrofit2:converter-gson:2.6.0"
+    implementation "com.squareup.okhttp3:okhttp-urlconnection:3.14.2"
+    implementation "com.squareup.okhttp3:logging-interceptor:3.14.2"
 
     // Glide
-    compile "com.github.bumptech.glide:glide:+"
+    implementation "com.github.bumptech.glide:glide:+"
 
     // Jericho Parser
-    compile "net.htmlparser.jericho:jericho-html:+"
+    implementation "net.htmlparser.jericho:jericho-html:+"
 
     // RoundImageview
-    compile "com.makeramen:roundedimageview:+"
-    compile "com.nostra13.universalimageloader:universal-image-loader:1.9.5"
+    implementation "com.makeramen:roundedimageview:+"
+    implementation "com.nostra13.universalimageloader:universal-image-loader:1.9.5"
 
     // Persistent SearchView
-    compile "com.lapism:searchview:4.+"
+    implementation "com.lapism:searchview:4.+"
 
 //
 //    // Cardslib https://github.com/gabrielemariotti/cardslib
 //    // Core
-//    compile "com.github.gabrielemariotti.cards:cardslib-core:2.1.0"
+//    implementation "com.github.gabrielemariotti.cards:cardslib-core:2.1.0"
 //
 //    //Optional for built-in cards
-//    compile "com.github.gabrielemariotti.cards:cardslib-cards:2.1.0"
+//    implementation "com.github.gabrielemariotti.cards:cardslib-cards:2.1.0"
 //
 //    //Optional for RecyclerView
-//    compile "com.github.gabrielemariotti.cards:cardslib-recyclerview:2.1.0"
+//    implementation "com.github.gabrielemariotti.cards:cardslib-recyclerview:2.1.0"
 //
 //    //Optional for staggered grid view
-//    compile "com.github.gabrielemariotti.cards:cardslib-extra-staggeredgrid:2.1.0"
+//    implementation "com.github.gabrielemariotti.cards:cardslib-extra-staggeredgrid:2.1.0"
 //
 //    //Optional for drag and drop
-//    compile "com.github.gabrielemariotti.cards:cardslib-extra-dragdrop:2.1.0"
+//    implementation "com.github.gabrielemariotti.cards:cardslib-extra-dragdrop:2.1.0"
 }
