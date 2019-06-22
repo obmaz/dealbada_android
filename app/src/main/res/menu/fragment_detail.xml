@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/detailRrfresh"
+        android:icon="@drawable/ic_refresh_white"
+        android:orderInCategory="100"
+        android:title="새로고침"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/detailShareVia"
+        android:icon="@drawable/ic_share_variant_white"
+        android:orderInCategory="100"
+        android:title="공유하기"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/detailWebviewLock"
+        android:icon="@drawable/ic_lock_open_white"
+        android:orderInCategory="100"
+        android:title="본문 스크롤 해제"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/detailBrower"
+        android:orderInCategory="100"
+        android:title="브라우져로 보기"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/detailReplay"
+        android:orderInCategory="100"
+        android:title="답글 달기"
+        app:showAsAction="ifRoom" />
+</menu>

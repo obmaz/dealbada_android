@@ -1,0 +1,51 @@
+<resources>
+    <!-- 기본 -->
+    <string name="app_name">딜오션</string>
+    <string name="search_hint">검색어를 입력 해주세요.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="negative_button">취소</string>
+
+    <!-- 공용 -->
+    <string name="unlock_content_scroll">본문 스크롤이 임시 해제 되었습니다.</string>
+
+    <!-- 로그인 -->
+    <string name="removed_login_session">로그인 세션 정보가 삭제 되었습니다.</string>
+
+    <!-- 딜바다 메뉴 -->
+    <string name="deal_domestic">국내 핫딜</string>
+    <string name="deal_domesticMinor">이건 어때</string>
+    <string name="deal_oversee">해외 핫딜</string>
+
+    <!-- 테마 -->
+    <string name="theme_indigo">Indigo</string>
+    <string name="theme_teal">Teal</string>
+    <string name="theme_purple">Purple</string>
+
+    <!-- 설정 -->
+    <string name="settings">설정</string>
+    <string name="settings_login_title">로그인</string>
+    <string name="settings_login_summary">딜바다에 로그인 상태를 설정 할 수 있습니다.</string>
+    <string name="settings_login_dialog_positive_button">로그인 하기</string>
+    <string name="settings_login_dialog_message">이전 로그인 세션 정보가 있을 경우 사라집니다\n로그인을 하시 겠습니까?</string>
+
+    <string name="settings_remove_login_title">로그인 정보 삭제</string>
+    <string name="settings_remove_login_summary">저장된 로그인 세션 정보를 삭제 합니다.</string>
+
+    <string name="settings_screen_category">화면</string>
+    <string name="settings_theme_title">테마 설정</string>
+    <string name="settings_theme_summary">다양한 테마를 설정 할 수 있습니다.</string>
+    <string name="settings_defaultBoard_title">최초 게시판</string>
+    <string name="settings_defaultBoard_summary">앱이 실행시 최초로 보여질 게시판을 설정 할 수 있습니다</string>
+
+    <string name="settings_misc_category">기타</string>
+    <string name="settings_drawerEdgeRange_title">메뉴 범위 설정</string>
+    <string name="settings_drawerEdgeRange_summary">좌측 메뉴의 드래그 허용 범위를 설정 할 수 있습니다.</string>
+
+    <string name="settings_info_category">정보</string>
+    <string name="settings_opensource_title">오프소스 라이센스</string>
+    <string name="settings_opensource_summary">오픈소스 소프트웨어에 대한 라이선스 세부정보</string>
+    <string name="settings_version_title">딜오션 버전</string>
+    <string name="settings_version_summary">버전: 1.0.0</string>
+</resources>
+

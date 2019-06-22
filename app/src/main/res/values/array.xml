@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settingsThemeName">
+        <item>@string/theme_indigo</item>
+        <item>@string/theme_teal</item>
+        <item>@string/theme_purple</item>
+    </string-array>
+    <string-array name="settingsThemeNameValue">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="settingsDefaultBoardName">
+        <item>국내핫딜</item>
+        <item>이건어때</item>
+        <item>해외핫딜</item>
+    </string-array>
+    <string-array name="settingsDefaultBoardValue">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="settingsDrawerEdgeRangeName">
+        <item>1 (안드로이드 기본)</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10 (앱 기본)</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="settingsDrawerEdgeRangeValue">
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+</resources>

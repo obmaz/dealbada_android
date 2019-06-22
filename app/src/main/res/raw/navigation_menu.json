@@ -1,0 +1,368 @@
+{
+  "version": 22,
+  "data": [
+    {
+      "isOpened": true,
+      "title": "딜바다",
+      "iconImg": "ic_info_black",
+      "subMenu": [
+        {
+          "id": "navDealDomestic",
+          "title": "국내 핫딜",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=deal_domestic"
+        },
+        {
+          "id": "navDealDomesticMinor",
+          "title": "이건 어때",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=deal_domestic_minor"
+        },
+        {
+          "id": "navDealOversee",
+          "title": "해외 핫딜",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=deal_oversea"
+        },
+        {
+          "id": "navInfoSiren",
+          "title": "사이렌 정보",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=info_siren"
+        }
+      ]
+    },
+    {
+      "isOpened": false,
+      "title": "커뮤니티",
+      "iconImg": "ic_info_black",
+      "subMenu": [
+        {
+          "id": "navCommFree",
+          "title": "자유 게시판",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=comm_free"
+        },
+        {
+          "id": "navCommHumor",
+          "title": "유머 게시판",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=comm_humor"
+        },
+        {
+          "id": "navBest",
+          "title": "베스트 게시판",
+          "url": "http://www.dealbada.com/bbs/board_link.php?device=pc&type=best"
+        },
+        {
+          "id": "navCommHello",
+          "title": "가입인사",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=comm_hello"
+        }
+      ]
+    },
+    {
+      "isOpened": false,
+      "title": "휴대폰/가전 포럼",
+      "iconImg": "ic_info_black",
+      "subMenu": [
+        {
+          "id": "navForumPhone",
+          "title": "휴대폰 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_phone"
+        },
+        {
+          "id": "navForumComputer",
+          "title": "컴퓨터 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_computer"
+        },
+        {
+          "id": "navForumNAS",
+          "title": "NAS 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_nas"
+        },
+        {
+          "id": "navForumAndroid",
+          "title": "안드로이드 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_android"
+        },
+        {
+          "id": "navForumIos",
+          "title": "iOS 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_ios"
+        },
+        {
+          "id": "navForumAudio",
+          "title": "음향 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_audio"
+        },
+        {
+          "id": "navForumAppliances",
+          "title": "가전 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_appliances"
+        }
+      ]
+    },
+    {
+      "isOpened": false,
+      "title": "스포츠/레저 포럼",
+      "iconImg": "ic_info_black",
+      "subMenu": [
+        {
+          "id": "navForumGolf",
+          "title": "골프 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_golf"
+        },
+        {
+          "id": "navForumClimbing",
+          "title": "등산 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_climbing"
+        },
+        {
+          "id": "navForumBaseball",
+          "title": "야구 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_baseball"
+        },
+        {
+          "id": "navForumㅠicycle",
+          "title": "자전거 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_bicycle"
+        },
+        {
+          "id": "navForumSoccer",
+          "title": "축구 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_soccer"
+        },
+        {
+          "id": "navForumCamping",
+          "title": "캠핑 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_camping"
+        },
+        {
+          "id": "navForumCar",
+          "title": "자동차 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_car"
+        },
+        {
+          "id": "navForum",
+          "title": "바이크 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_bike"
+        },
+        {
+          "id": "navForumSki",
+          "title": "스키/보드 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_ski"
+        }
+      ]
+    },
+    {
+      "isOpened": false,
+      "title": "경제/지역 포럼",
+      "iconImg": "ic_info_black",
+      "subMenu": [
+        {
+          "id": "navForumMoney",
+          "title": "재태크 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_money"
+        },
+        {
+          "id": "navForumOversea",
+          "title": "해외 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_oversea"
+        },
+        {
+          "id": "navForumStock",
+          "title": "주식 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_stock"
+        },
+        {
+          "id": "navForumLand",
+          "title": "부동산 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_land"
+        }
+      ]
+    },
+    {
+      "isOpened": false,
+      "title": "생활 포럼",
+      "iconImg": "ic_info_black",
+      "subMenu": [
+        {
+          "id": "navForumAnimal",
+          "title": "동식물 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_animal"
+        },
+        {
+          "id": "navForumRestaurant",
+          "title": "맛집 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_restaurant"
+        },
+        {
+          "id": "navForumFood",
+          "title": "음식/요리 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_food"
+        },
+        {
+          "id": "navForumHouse",
+          "title": "주거 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_house"
+        },
+        {
+          "id": "navForumBaby",
+          "title": "육아 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_baby"
+        },
+        {
+          "id": "navForumCouple",
+          "title": "연예 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_couple"
+        },
+        {
+          "id": "navForumTravel",
+          "title": "여행 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_travel"
+        },
+        {
+          "id": "navForumHealth",
+          "title": "건강/헬스 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_health"
+        }
+      ]
+    },
+    {
+      "isOpened": false,
+      "title": "문화 포럼",
+      "iconImg": "ic_info_black",
+      "subMenu": [
+        {
+          "id": "navForumMusic",
+          "title": "음악 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_music"
+        },
+        {
+          "id": "navForumMovie",
+          "title": "영화 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_movie"
+        },
+        {
+          "id": "navForumStar",
+          "title": "연예인 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_star"
+        },
+        {
+          "id": "navForumCartoon",
+          "title": "만화/애니 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_cartoon"
+        }
+      ]
+    },
+    {
+      "isOpened": false,
+      "title": "취미 포럼",
+      "iconImg": "ic_info_black",
+      "subMenu": [
+        {
+          "id": "navForumGame",
+          "title": "게임 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_game"
+        },
+        {
+          "id": "navForumCoffee",
+          "title": "커피/차 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_coffee"
+        },
+        {
+          "id": "navForumAlchol",
+          "title": "주류 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_alchol"
+        },
+        {
+          "id": "navForumCamera",
+          "title": "사진/카메라 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_camera"
+        },
+        {
+          "id": "navForumWatch",
+          "title": "시계 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_watch"
+        },
+        {
+          "id": "navForumFishing",
+          "title": "낚시 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_fishing"
+        }
+      ]
+    },
+    {
+      "isOpened": false,
+      "title": "그룹 포럼",
+      "iconImg": "ic_info_black",
+      "subMenu": [
+        {
+          "id": "navForumMiz",
+          "title": "미즈 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_miz"
+        },
+        {
+          "id": "navForumAdult",
+          "title": "성인 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_adult"
+        },
+        {
+          "id": "navForum30age",
+          "title": "30+ 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_30age"
+        },
+        {
+          "id": "navForum40age",
+          "title": "40+ 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_40age"
+        },
+        {
+          "id": "navForumDeveloper",
+          "title": "개발자 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_developer"
+        }
+      ]
+    },
+    {
+      "isOpened": false,
+      "title": "기타 포럼",
+      "iconImg": "ic_info_black",
+      "subMenu": [
+        {
+          "id": "navForumHistory",
+          "title": "역사 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_history"
+        },
+        {
+          "id": "navForumJob",
+          "title": "취업 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_job"
+        },
+        {
+          "id": "navForumStyle",
+          "title": "스타일 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_style"
+        },
+        {
+          "id": "navForumStudy",
+          "title": "학습 포럼",
+          "url": "http://www.dealbada.com/bbs/board.php?device=pc&bo_table=forum_study"
+        }
+      ]
+    },
+    {
+      "isOpened": false,
+      "title": "기타",
+      "iconImg": "ic_info_black",
+      "subMenu": [
+        {
+          "id": "navTrip",
+          "title": "여행 스케쥴",
+          "url": "http://www.naver.com"
+        },
+        {
+          "id": "navSettings",
+          "title": "설정",
+          "iconImg": "ic_settings_black",
+          "url": "activity://com.moon.dealocean.ui.settings.SettingsActivity"
+        }
+      ]
+    }
+  ]
+}

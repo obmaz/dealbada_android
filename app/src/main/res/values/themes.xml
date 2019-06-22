@@ -1,0 +1,20 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar.Indigo" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/indigo_500</item>
+        <item name="colorPrimaryDark">@color/indigo_700</item>
+        <item name="colorAccent">@color/red_A200</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.Teal" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/teal_500</item>
+        <item name="colorPrimaryDark">@color/teal_700</item>
+        <item name="colorAccent">@color/red_A200</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.Purple" parent="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/green_A200</item>
+    </style>
+</resources>

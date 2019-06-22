@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_login_title">
+        <Preference
+            android:key="settingsLogin"
+            android:summary="@string/settings_login_summary"
+            android:title="@string/settings_login_title" />
+
+        <Preference
+            android:key="settingsRemoveLogin"
+            android:summary="@string/settings_remove_login_summary"
+            android:title="@string/settings_remove_login_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_screen_category">
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/settingsThemeName"
+            android:entryValues="@array/settingsThemeNameValue"
+            android:key="settingsTheme"
+            android:negativeButtonText="@string/negative_button"
+            android:summary="@string/settings_theme_summary"
+            android:title="@string/settings_theme_title" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/settingsDefaultBoardName"
+            android:entryValues="@array/settingsDefaultBoardValue"
+            android:key="settingsDefaultBoard"
+            android:negativeButtonText="@string/negative_button"
+            android:summary="@string/settings_defaultBoard_summary"
+            android:title="@string/settings_defaultBoard_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_misc_category">
+        <ListPreference
+            android:defaultValue="10"
+            android:entries="@array/settingsDrawerEdgeRangeName"
+            android:entryValues="@array/settingsDrawerEdgeRangeValue"
+            android:key="settingsDrawerEdgeRange"
+            android:negativeButtonText="@string/negative_button"
+            android:summary="@string/settings_drawerEdgeRange_summary"
+            android:title="@string/settings_drawerEdgeRange_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_info_category">
+        <Preference
+            android:key="settingsOpensource"
+            android:summary="@string/settings_opensource_summary"
+            android:title="@string/settings_opensource_title" />
+        <Preference
+            android:key="settingsVersion"
+            android:summary="@string/settings_version_summary"
+            android:title="@string/settings_version_title" />
+    </PreferenceCategory>
+</android.support.v7.preference.PreferenceScreen>
