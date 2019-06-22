@@ -33,7 +33,7 @@ public class SettingsFragment extends PreferenceFragmentCompat implements Shared
             case "settingsDrawerEdgeRange":
                 if (getContext() != null) {
                     Intent intentToBeNewRoot = new Intent(getContext(), MainActivity.class);
-                    startActivity(IntentCompat.makeRestartActivityTask(intentToBeNewRoot.getComponent()));
+                    startActivity(Intent.makeRestartActivityTask(intentToBeNewRoot.getComponent()));
                 }
                 break;
         }
