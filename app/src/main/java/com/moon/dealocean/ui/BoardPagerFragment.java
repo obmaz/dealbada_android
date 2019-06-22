@@ -1,8 +1,10 @@
 package com.moon.dealocean.ui;
 
 import android.os.Bundle;
+
 import androidx.annotation.Nullable;
 import androidx.viewpager.widget.ViewPager;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

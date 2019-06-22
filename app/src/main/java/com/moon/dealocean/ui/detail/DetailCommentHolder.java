@@ -1,6 +1,7 @@
 package com.moon.dealocean.ui.detail;
 
 import androidx.cardview.widget.CardView;
+
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;

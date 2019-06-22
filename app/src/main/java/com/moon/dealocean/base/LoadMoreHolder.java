@@ -1,6 +1,7 @@
 package com.moon.dealocean.base;
 
 import androidx.cardview.widget.CardView;
+
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;

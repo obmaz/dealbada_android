@@ -1,6 +1,7 @@
 package com.moon.dealocean;
 
 import android.app.Application;
+
 import androidx.preference.PreferenceManager;
 
 /**

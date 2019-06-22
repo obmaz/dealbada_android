@@ -3,8 +3,10 @@ package com.moon.dealocean.util;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
+
 import androidx.core.content.ContextCompat;
 import androidx.preference.PreferenceManager;
+
 import android.util.TypedValue;
 
 /**

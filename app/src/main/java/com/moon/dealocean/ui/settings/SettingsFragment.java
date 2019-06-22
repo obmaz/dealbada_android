@@ -3,12 +3,14 @@ package com.moon.dealocean.ui.settings;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+
 import androidx.fragment.app.FragmentTransaction;
 import androidx.core.content.IntentCompat;
 import androidx.appcompat.app.AlertDialog;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceManager;
+
 import android.widget.Toast;
 
 import com.moon.dealocean.R;
